@@ -25,7 +25,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, 'index.html'),
-        pandas: resolve(root, 'pandas/index.html'),
         // You can add more entrypoints here
       }
     }

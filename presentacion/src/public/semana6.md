@@ -45,7 +45,8 @@ Sigue las instrucciones de tu sistema operativo:
 - Fijar ficheros
 - Ejecutar cosas
   - Terminal
-  - Depuración
+  - Depuración: one shot
+  - Depuración: crear configuración
 
 ---
 
@@ -92,31 +93,35 @@ git init
   - `git status`
   - `git log`
 
-
-
 ---
 
-Actividad: Crear un nuevo repositorio local
+# Recuperar trabajo anterior y ver cambios
 
 
+- Sacar de staging:
+  `git reset`
+- Restaurar versión anterior:
+  `git checkout <commit hash> -- <filename>`
+- Ver diferencias:
+  `git diff`
+
+**Pero se puede hacer desde el interfaz gráfico**
+
+--
 
 
+# Primeros pasos con git
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1) Instala git
+2) Crea un directorio vacío
+3) Inicializa un repositorio en ese directorio
+4) Crea dos ficheros: `fichero1.txt` y `fichero2.txt` con contenido "`fichero 1 version 1"` y `"fichero 2 version 1"`
+5) Añade los dos ficheros en un commit con mensaje `"Primera versión"`
+6) Modifica el fichero `fichero2.txt` y haz un commit `"Segunda versión de fichero 2"`
+7) Modifica de nuevo `fichero2.txt` y haz un commit `"Tercera versión de fichero 2"`
+8) Recupera la segunda versión de `fichero2.txt`
+9) Elimina `fichero1.txt` y añadelo a un commit `"La había cagado"` junto con la versión recuperada del fichero 2.
 
 ---
 
@@ -166,13 +171,13 @@ saludar
 
 # Ejemplo
 
-![Ejemplo 1](./img/ejemplo_s5_1.png) <!-- .element class="noborder center" -->
+![Ejemplo 1](./img/ejemplo_s6_1.png) <!-- .element class="noborder center" -->
 
 ---
 
 # Ejercicio 1
 
-![Ejercicio 61](./img/ejercicio_s5_1.png) <!-- .element class="noborder center" -->
+![Ejercicio 61](./img/ejercicio_s6_1.png) <!-- .element class="noborder center" -->
 
 ¿Qué cosas podríamos definir como funciones en cada dibujo?
 
@@ -180,7 +185,7 @@ saludar
 
 # Ejercicio 3
 
-![Ejercicio 62](./img/ejercicio_s5_2.png) <!-- .element class="noborder center" -->
+![Ejercicio 62](./img/ejercicio_s6_2.png) <!-- .element class="noborder center" -->
 
 ¿Qué cosas podríamos definir como funciones en cada dibujo?
 ¿Qué parámetros necesitan?
