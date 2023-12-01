@@ -11,9 +11,8 @@
 
 # Nueva forma de trabajo
 
-Notes:
+
 - ¿Cuánto queréis dedicarle?
-- Plataforma online
 - Diferentes "grupos":
     1) Nivel básico
     2) Nivel avanzado
@@ -21,16 +20,38 @@ Notes:
 
 ---
 
-Temas comunes:
+# Temas comunes
+- IDE
 - Trabajo con repositorios
 - Entornos virtuales y módulos
 
 ---
 
+# Instalación de Visual Studio Code
+
+![Logo Visual Studio Code](./img/vscode_logo.png) <!-- .element class="noborder center" -->
+
+Sigue las instrucciones de tu sistema operativo:
+
+
+[https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+
+
+---
+
+# Manejo básico
+
+- Abrir carpetas
+- Fijar ficheros
+- Ejecutar cosas
+  - Terminal
+  - Depuración
+
+---
+
 # Introducción a git
 
-https://aulasoftwarelibre.github.io/taller-de-git/introduccion/
-
+---
 
 # Control de versiones
 
@@ -45,53 +66,37 @@ Qué es un repositorio de código:
 # Primeros pasos con git
 
 - Instalación de git
-- Inicialización de repositorio
-  - git init
+- Configuración de git
+```bash
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git config --global push.default simple
+```
+- Inicialización de repositorio:
+```bash
+git init
+```
+
+---
+
+# Las áreas de trabajo
+
+![Areas locales git](./img/git_areas_local.webp) <!-- .element class="noborder center" -->
+
 - Areas working, staging, repository
 - Movimiento simple entre áreas:
-  - git add
-  - git commit
-  - git checkout
+  - `git add`
+  - `git commit`
+  - `git checkout`
+- Ver el estado:
+  - `git status`
+  - `git log`
+
+
 
 ---
 
 Actividad: Crear un nuevo repositorio local
-
-
----
-
-# Trabajando online
-
-https://github.com/
-
-Proceso de alta
-
----
-
-Actividad: Crear un nuevo repositorio remoto
-
----
-
-
-# Trabajando online
-
-https://github.com/
-
-Proceso de alta
-
----
-
----
-
-# Codespaces
-
-- "Ordenador" en la nube para trabajar con él
-- 60 horas al mes. Si vais a hacer más, trabajad en local
-- Hay cosas que no van a ir, como el Python Turtle o PyGames
-
-Actividad: Hello World en Codespaces
-
-
 
 
 
@@ -126,76 +131,6 @@ Actividad: Hello World en Codespaces
   - [https://avast-python.github.io/semana-3](https://avast-python.github.io/semana-3)
   - [https://avast-python.github.io/semana-4](https://avast-python.github.io/semana-4)
 
-
----
-
-### La programación son cinco cosas
-
-1. ~~Secuencia~~ ✓
-2. Condicionales <-
-3. ~~Repetición~~ ✓
-4. ~~Variables~~ ✓
-5. Funciones <-
----
-
-# Condicionales
-
-```python
-if ALGO_BOOLEANO:
-    secuencia_instrucciones_1
-elif OTRA_CONDICION:
-    secuencia_instrucciones_2
-elif OTRA_CONDICION_MAS:
-    secuencia_instrucciones_3
-else:
-    secuencia_instrucciones_4
-```
-<!-- .element style="font-size: 1em" -->
-
-- Sirven para "bifurcar" el código
-- El `elif` y el `else` son opcionales
-- Normalmente usaremos variables en las condiciones
-- Podéis hacer diagramas de bloques para ver el flujo del programa
-
----
-
-# Ejemplo de condicionales
-
-```python
-if numero % 2 == 0:
-    print('OLA K ASE')
-```
-<!-- .element style="font-size: 1em" -->
-
-¿Qué imprimirá cuando numero vale 6?
-
-¿Y cuando vale 5?
----
-
-# Otro ejemplo de condicionales
-
-```python
-if numero > 10:
-    print('El número es grande')
-elif numero > 100:
-    print('El número es muy grande')
-else:
-    print('El número es una caca')
-```
-<!-- .element style="font-size: 1em" -->
-
-¿Qué imprimirá con los siguientes números?
-- 10
-- 101
-- 34
-
----
-
-# Ejercicio 1
-
-![Ejercicio 1](./img/ejercicio_s5_1.png) <!-- .element class="noborder center" -->
-
-**Extra**: Haz el dibujo que tiene varias líneas
 
 ---
 
@@ -235,9 +170,18 @@ saludar
 
 ---
 
-# Ejercicio 2
+# Ejercicio 1
 
-![Ejercicio 23](./img/ejercicio_s5_2.png) <!-- .element class="noborder center" -->
+![Ejercicio 61](./img/ejercicio_s5_1.png) <!-- .element class="noborder center" -->
 
 ¿Qué cosas podríamos definir como funciones en cada dibujo?
+
+---
+
+# Ejercicio 3
+
+![Ejercicio 62](./img/ejercicio_s5_2.png) <!-- .element class="noborder center" -->
+
+¿Qué cosas podríamos definir como funciones en cada dibujo?
+¿Qué parámetros necesitan?
 
