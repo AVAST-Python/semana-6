@@ -2,10 +2,109 @@
 
 # Introducción a Python
 
-## Semana 5
+## Semana 6
 <!-- .element style="text-align:center" -->
 
 ![alt text](./img/logo2.png) <!-- .element style="margin-left: auto; margin-right: auto; display: block" -->
+
+---
+
+# Nueva forma de trabajo
+
+Notes:
+- ¿Cuánto queréis dedicarle?
+- Plataforma online
+- Diferentes "grupos":
+    1) Nivel básico
+    2) Nivel avanzado
+    3) Temas concretos
+
+---
+
+Temas comunes:
+- Trabajo con repositorios
+- Entornos virtuales y módulos
+
+---
+
+# Introducción a git
+
+https://aulasoftwarelibre.github.io/taller-de-git/introduccion/
+
+
+# Control de versiones
+
+Qué es un repositorio de código:
+- Sirve para guardar el código
+- Guarda un histórico de todas las modificaciones
+- Puedes modificar el código en paralelo ("ramas")
+- Se puede poner online y crear un nuevo repositorio
+
+
+
+---
+
+# Primeros pasos con git
+
+- Instalación de git
+- Inicialización de repositorio
+  - git init
+- Areas working, staging, repository
+- Movimiento simple entre áreas:
+  - git add
+  - git commit
+  - git checkout
+
+---
+
+Actividad: Crear un nuevo repositorio local
+
+---
+
+Actividad: Crear un nuevo repositorio remoto
+
+---
+
+
+# Trabajando online
+
+https://github.com/
+
+Proceso de alta
+
+---
+
+---
+
+# Codespaces
+
+- "Ordenador" en la nube para trabajar con él
+- 60 horas al mes. Si vais a hacer más, trabajad en local
+- Hay cosas que no van a ir, como el Python Turtle o PyGames
+
+Actividad: Hello World en Codespaces
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
