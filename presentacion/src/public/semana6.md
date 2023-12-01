@@ -40,8 +40,6 @@ Qué es un repositorio de código:
 - Puedes modificar el código en paralelo ("ramas")
 - Se puede poner online y crear un nuevo repositorio
 
-
-
 ---
 
 # Primeros pasos con git
@@ -58,6 +56,15 @@ Qué es un repositorio de código:
 ---
 
 Actividad: Crear un nuevo repositorio local
+
+
+---
+
+# Trabajando online
+
+https://github.com/
+
+Proceso de alta
 
 ---
 
